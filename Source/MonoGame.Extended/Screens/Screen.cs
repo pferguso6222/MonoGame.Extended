@@ -5,7 +5,7 @@ namespace MonoGame.Extended.Screens
 {
     public abstract class Screen : IDisposable
     {
-        public ScreenManager ScreenManager { get; internal set; }
+        public ScreenManager ScreenManager { get; set; }
 
         public virtual void Dispose() { }
         public virtual void Initialize() { }
